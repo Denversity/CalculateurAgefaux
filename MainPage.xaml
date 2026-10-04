@@ -9,7 +9,7 @@
             <Entry Text="{Binding Nom, Mode=TwoWay}" Placeholder="Votre nom"/>
             <Label Text="Date de naissance" FontSize="16"/>
             <DatePicker Date="{Binding DateNaissance}"/>
-            <Button Text="Caller" Command="{Binding CalculerCommand}"/>
+            <Button Text="Calculer" Command="{Binding CalculerCommand}"/>
             <Label Text="{Binding Resultat}" FontSize="20"
                    IsVisible="{Binding ResultatVisible}"/>
         </VerticalStackLayout>
